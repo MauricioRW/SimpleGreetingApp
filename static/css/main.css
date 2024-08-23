@@ -1,0 +1,47 @@
+/*Give style to the HTML body*/
+body {
+    background-color: slategray;
+    text-align: center;
+}
+/*Give style to the HTML paragraph*/
+p {
+    color: white;
+    font-family: Shanti;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+/*margin: top side bottom side*/
+img {
+    margin: 60px 0 30px 0;
+    width: 250px;
+}
+
+/*Input field*/
+input {
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: Shanti;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+input:focus {
+    border: solid 5px #00FFCE;
+    outline: none;
+}
+
+/*Button*/
+#greet {
+    background-color: palevioletred;
+    color: white;
+    width: 200px;
+}
+
+#greet:hover {
+    background-color: mediumvioletred;
+    cursor: pointer;
+}
